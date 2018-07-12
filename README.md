@@ -1,4 +1,4 @@
-# Yii HiDev
+# YiiSoft HiDev
 
 **YiiSoft vendor configuration for HiDev**
 

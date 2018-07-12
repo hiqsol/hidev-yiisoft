@@ -3,7 +3,7 @@ package:
     name:           hidev-yiisoft
     fullName:       hiqsol/hidev-yiisoft
     title:          YiiSoft vendor configuration for HiDev
-    headline:       Yii HiDev
+    headline:       YiiSoft HiDev
     keywords:       yiisoft, hidev, vendor, config
     description:    |
         [HiDev] is the automation tool mixed with code generator for easier continuous development.
