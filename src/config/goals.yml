@@ -1,0 +1,65 @@
+vendor:
+    name:       yiisoft
+    title:      Yii Software LLC
+    github:     https://github.com/yiisoft
+    homepage:   http://www.yiiframework.com/
+    forum:      http://www.yiiframework.com/forum/
+    wiki:       http://www.yiiframework.com/wiki/
+    irc:        irc://irc.freenode.net/yii
+    license:    BSD-3-Clause
+    authors:
+        qiangxue:
+            name:       Qiang Xue
+            role:       Founder and project lead
+            email:      qiang.xue@gmail.com
+            github:     https://github.com/qiangxue
+            homepage:   http://www.yiiframework.com/
+        samdark:
+            name:       Alexander Makarov
+            role:       Core framework development
+            email:      sam@rmcreative.ru
+            github:     https://github.com/samdark
+            homepage:   http://rmcreative.ru/
+        mdomba:
+            name:       Maurizio Domba
+            role:       Core framework development
+            github:     https://github.com/mdomba
+            homepage:   http://mdomba.info/
+        cebe:
+            name:       Carsten Brandt
+            role:       Core framework development
+            email:      mail@cebe.cc
+            github:     https://github.com/cebe
+            homepage:   http://cebe.cc/
+        klimov-paul:
+            name:       Paul Klimov
+            role:       Core framework development
+            email:      klimov.paul@gmail.com
+            github:     https://github.com/klimov-paul
+        SilverFire:
+            name:       Dmitry Naumenko
+            role:       Core framework development
+            email:      d.naumenko.a@gmail.com
+            github:     https://github.com/SilverFire
+        dynasource:
+            name:       Boudewijn Vahrmeijer
+            role:       Core framework development
+            email:      info@dynasource.eu
+            github:     https://github.com/dynasource
+            homepage:   http://dynasource.eu
+
+.php_cs:
+    level: psr2
+    header: |
+        @link {{ config.vendor.homepage }}
+        @copyright Copyright (c) {{ config.package.years }} {{ config.vendor.title }}
+        @license http://www.yiiframework.com/license/
+
+    fixers:
+        header_comment:                         |       # Add, replace or remove header comment
+            [
+                'header'        => $header,
+                'separate'      => 'bottom',
+                'location'      => 'after_declare_strict',
+                'commentType'   => 'PHPDoc',
+            ]

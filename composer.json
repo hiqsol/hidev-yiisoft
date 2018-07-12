@@ -1,0 +1,89 @@
+{
+    "name": "hiqsol/hidev-yiisoft",
+    "type": "yii2-extension",
+    "description": "YiiSoft vendor configuration for HiDev",
+    "keywords": [
+        "yiisoft",
+        "hidev",
+        "vendor",
+        "config"
+    ],
+    "homepage": "https://github.com/hiqsol/hidev-yiisoft",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/yiisoft/hidev-yiisoft",
+        "issues": "https://github.com/yiisoft/hidev-yiisoft/issues",
+        "wiki": "https://github.com/yiisoft/hidev-yiisoft/wiki",
+        "forum": "http://www.yiiframework.com/forum/"
+    },
+    "authors": [
+        {
+            "name": "Qiang Xue",
+            "role": "Founder and project lead",
+            "email": "qiang.xue@gmail.com",
+            "homepage": "http://www.yiiframework.com/"
+        },
+        {
+            "name": "Alexander Makarov",
+            "role": "Core framework development",
+            "email": "sam@rmcreative.ru",
+            "homepage": "http://rmcreative.ru/"
+        },
+        {
+            "name": "Maurizio Domba",
+            "role": "Core framework development",
+            "homepage": "http://mdomba.info/"
+        },
+        {
+            "name": "Carsten Brandt",
+            "role": "Core framework development",
+            "email": "mail@cebe.cc",
+            "homepage": "http://cebe.cc/"
+        },
+        {
+            "name": "Paul Klimov",
+            "role": "Core framework development",
+            "email": "klimov.paul@gmail.com"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "role": "Core framework development",
+            "email": "d.naumenko.a@gmail.com"
+        },
+        {
+            "name": "Boudewijn Vahrmeijer",
+            "role": "Core framework development",
+            "email": "info@dynasource.eu",
+            "homepage": "http://dynasource.eu"
+        }
+    ],
+    "require": {
+        "hiqdev/composer-config-plugin": "*@dev"
+    },
+    "require-dev": {
+        "hiqdev/hidev": "dev-master",
+        "hiqdev/hidev-php": "dev-master",
+        "hiqdev/hidev-travis": "dev-master",
+        "hiqdev/hidev-license": "dev-master",
+        "hiqdev/hidev-phpunit": "dev-master",
+        "hiqdev/hidev-composer": "dev-master",
+        "hiqdev/hidev-scrutinizer": "dev-master",
+        "hiqdev/hidev-php-cs-fixer": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "yiisoft\\hidev\\yiisoft\\": "src"
+        }
+    },
+    "extra": {
+        "config-plugin": {
+            "hidev": "src/config/hidev.php"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
